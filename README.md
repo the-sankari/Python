@@ -1,6 +1,6 @@
 # Python Learning Journey
 
-**Course**: Cisco Python Fundamentals  
+**Course**: Cisco Python Fundamentals (Networking Academy)  
 **Status**: 🚀 In Progress
 
 ---
@@ -18,51 +18,36 @@
 
 ---
 
-## 📚 Course Modules
+## 📚 Course Structure
 
-### Module 1: Introduction to Python and Computer Programming
+The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 
-- **Status**: ⬜ Not Started
-- **Topics**: Introduction to Python and computer programming
-- **Notes**: [📝 Notes](./module1/notes.md)
-- **Exercises**: [🔨 Exercises](./module1/exercises/)
-- **Projects**: [🚀 Projects](./module1/projects/)
-
-### Module 2: Data Types, Variables & Operators
-
-- **Status**: ⬜ Not Started
-- **Topics**: Data types, variables, basic input-output operations, and basic operators
-- **Notes**: [📝 Notes](./module2/notes.md)
-- **Exercises**: [🔨 Exercises](./module2/exercises/)
-- **Projects**: [🚀 Projects](./module2/projects/)
-
-### Module 3: Control Flow & Data Structures
-
-- **Status**: ⬜ Not Started
-- **Topics**: Boolean values, conditional execution, loops, lists and list processing, logical and bitwise operations
-- **Notes**: [📝 Notes](./module3/notes.md)
-- **Exercises**: [🔨 Exercises](./module3/exercises/)
-- **Projects**: [🚀 Projects](./module3/projects/)
-
-### Module 4: Functions & Advanced Topics
-
-- **Status**: ⬜ Not Started
-- **Topics**: Functions, tuples, dictionaries, exceptions, and data processing
-- **Notes**: [📝 Notes](./module4/notes.md)
-- **Exercises**: [🔨 Exercises](./module4/exercises/)
-- **Projects**: [🚀 Projects](./module4/projects/)
+- **PE1**: Modules 1-4
+- **PE2**: Modules 1-4 (Advanced concepts)
 
 ---
 
 ## 📊 Progress Tracking
 
-| Module      | Completion        |
-| ----------- | ----------------- |
-| Module 1    | ░░░░░░░░░░ 0%     |
-| Module 2    | ░░░░░░░░░░ 0%     |
-| Module 3    | ░░░░░░░░░░ 0%     |
-| Module 4    | ░░░░░░░░░░ 0%     |
-| **Overall** | **░░░░░░░░░░ 0%** |
+### Practical Exam 1 (PE1)
+
+| Module | Topics | Notes | Exercises | Projects | Status |
+|--------|--------|-------|-----------|----------|--------|
+| **Module 1** | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE1/module_1/notes/) | [🔨](./ciso_netacad/PE1/module_1/exercises/) | [🚀](./ciso_netacad/PE1/module_1/projects/) | ⬜ Not Started |
+| **Module 2** | Data Types, Variables & Operators | [📝](./ciso_netacad/PE1/module_2/notes/) | [🔨](./ciso_netacad/PE1/module_2/exercises/) | [🚀](./ciso_netacad/PE1/module_2/projects/) | ⬜ Not Started |
+| **Module 3** | Control Flow & Data Structures | [📝](./ciso_netacad/PE1/module_3/notes/) | [🔨](./ciso_netacad/PE1/module_3/exercises/) | [🚀](./ciso_netacad/PE1/module_3/projects/) | ⬜ Not Started |
+| **Module 4** | Functions & Advanced Topics | [📝](./ciso_netacad/PE1/module_4/notes/) | [🔨](./ciso_netacad/PE1/module_4/exercises/) | [🚀](./ciso_netacad/PE1/module_4/projects/) | ⬜ Not Started |
+| **PE1 Overall** | | | | | **░░░░░░░░░░ 0%** |
+
+### Practical Exam 2 (PE2)
+
+| Module | Topics | Notes | Exercises | Projects | Status |
+|--------|--------|-------|-----------|----------|--------|
+| **Module 1** | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE2/module_1/notes/) | [🔨](./ciso_netacad/PE2/module_1/exercises/) | [🚀](./ciso_netacad/PE2/module_1/projects/) | ⬜ Not Started |
+| **Module 2** | Data Types, Variables & Operators | [📝](./ciso_netacad/PE2/module_2/notes/) | [🔨](./ciso_netacad/PE2/module_2/exercises/) | [🚀](./ciso_netacad/PE2/module_2/projects/) | ⬜ Not Started |
+| **Module 3** | Control Flow & Data Structures | [📝](./ciso_netacad/PE2/module_3/notes/) | [🔨](./ciso_netacad/PE2/module_3/exercises/) | [🚀](./ciso_netacad/PE2/module_3/projects/) | ⬜ Not Started |
+| **Module 4** | Functions & Advanced Topics | [📝](./ciso_netacad/PE2/module_4/notes/) | [🔨](./ciso_netacad/PE2/module_4/exercises/) | [🚀](./ciso_netacad/PE2/module_4/projects/) | ⬜ Not Started |
+| **PE2 Overall** | | | | | **░░░░░░░░░░ 0%** |
 
 ---
 
@@ -70,22 +55,21 @@
 
 ```
 .
-├── module1/
-│   ├── notes.md
-│   ├── exercises/
-│   └── projects/
-├── module2/
-│   ├── notes.md
-│   ├── exercises/
-│   └── projects/
-├── module3/
-│   ├── notes.md
-│   ├── exercises/
-│   └── projects/
-├── module4/
-│   ├── notes.md
-│   ├── exercises/
-│   └── projects/
+├── ciso_netacad/
+│   ├── PE1/
+│   │   ├── module_1/
+│   │   │   ├── notes/
+│   │   │   ├── exercises/
+│   │   │   └── projects/
+│   │   ├── module_2/
+│   │   ├── module_3/
+│   │   └── module_4/
+│   └── PE2/
+│       ├── module_1/
+│       ├── module_2/
+│       ├── module_3/
+│       └── module_4/
+├── .gitignore
 └── README.md
 ```
 
@@ -93,25 +77,40 @@
 
 ## 📌 How to Use This Repository
 
-1. **Notes**: Document key concepts and learnings in the `notes.md` file for each module
+1. **Notes**: Add your learning notes in the `notes/` folder for each module
 2. **Exercises**: Complete practice exercises in the `exercises/` folder
 3. **Projects**: Build practical projects in the `projects/` folder
-4. **Progress**: Update the progress tracking table as you complete modules
+4. **Status Updates**: Mark modules as complete once finished
+
+### File Naming Conventions
+- Exercises: `exercise_1.py`, `exercise_2.py`
+- Projects: `project_1.py`, `project_capstone.py`
+- Notes: Create `.md` or `.txt` files for documentation
 
 ---
 
 ## 🎯 Learning Goals
 
-- [ ] Complete Module 1
-- [ ] Complete Module 2
-- [ ] Complete Module 3
-- [ ] Complete Module 4
+- [ ] Complete PE1 - Module 1
+- [ ] Complete PE1 - Module 2
+- [ ] Complete PE1 - Module 3
+- [ ] Complete PE1 - Module 4
+- [ ] Complete PE2 - Module 1
+- [ ] Complete PE2 - Module 2
+- [ ] Complete PE2 - Module 3
+- [ ] Complete PE2 - Module 4
 - [ ] Build a capstone project
+- [ ] Pass Cisco final exam
 
 ---
 
 ## 📖 Resources
 
-- [Python Official Documentation](https://docs.python.org/3/)
-- [Cisco Networking Academy](https://www.netacad.com/)
-- Additional learning materials as needed
+
+---
+
+## 📝 Notes
+
+- Keep your code clean and well-commented
+- Test your code before committing
+- Document challenges and solutions in notes
