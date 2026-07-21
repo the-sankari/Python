@@ -31,23 +31,23 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 
 ### Practical Exam 1 (PE1)
 
-| Module | Topics | Notes | Exercises | Projects | Status |
-|--------|--------|-------|-----------|----------|--------|
-| **Module 1** | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE1/module_1/notes/) | [🔨](./ciso_netacad/PE1/module_1/exercises/) | [🚀](./ciso_netacad/PE1/module_1/projects/) | ⬜ Not Started |
-| **Module 2** | Data Types, Variables & Operators | [📝](./ciso_netacad/PE1/module_2/notes/) | [🔨](./ciso_netacad/PE1/module_2/exercises/) | [🚀](./ciso_netacad/PE1/module_2/projects/) | ⬜ Not Started |
-| **Module 3** | Control Flow & Data Structures | [📝](./ciso_netacad/PE1/module_3/notes/) | [🔨](./ciso_netacad/PE1/module_3/exercises/) | [🚀](./ciso_netacad/PE1/module_3/projects/) | ⬜ Not Started |
-| **Module 4** | Functions & Advanced Topics | [📝](./ciso_netacad/PE1/module_4/notes/) | [🔨](./ciso_netacad/PE1/module_4/exercises/) | [🚀](./ciso_netacad/PE1/module_4/projects/) | ⬜ Not Started |
-| **PE1 Overall** | | | | | **░░░░░░░░░░ 0%** |
+| Module          | Topics                                        | Notes                                    | Exercises                                    | Projects                                    | Status            |
+| --------------- | --------------------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------- | ----------------- |
+| **Module 1**    | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE1/module_1/notes/) | [🔨](./ciso_netacad/PE1/module_1/exercises/) | [🚀](./ciso_netacad/PE1/module_1/projects/) | ⬜ Not Started    |
+| **Module 2**    | Data Types, Variables & Operators             | [📝](./ciso_netacad/PE1/module_2/notes/) | [🔨](./ciso_netacad/PE1/module_2/exercises/) | [🚀](./ciso_netacad/PE1/module_2/projects/) | ⬜ Not Started    |
+| **Module 3**    | Control Flow & Data Structures                | [📝](./ciso_netacad/PE1/module_3/notes/) | [🔨](./ciso_netacad/PE1/module_3/exercises/) | [🚀](./ciso_netacad/PE1/module_3/projects/) | ⬜ Not Started    |
+| **Module 4**    | Functions & Advanced Topics                   | [📝](./ciso_netacad/PE1/module_4/notes/) | [🔨](./ciso_netacad/PE1/module_4/exercises/) | [🚀](./ciso_netacad/PE1/module_4/projects/) | ⬜ Not Started    |
+| **PE1 Overall** |                                               |                                          |                                              |                                             | **░░░░░░░░░░ 0%** |
 
 ### Practical Exam 2 (PE2)
 
-| Module | Topics | Notes | Exercises | Projects | Status |
-|--------|--------|-------|-----------|----------|--------|
-| **Module 1** | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE2/module_1/notes/) | [🔨](./ciso_netacad/PE2/module_1/exercises/) | [🚀](./ciso_netacad/PE2/module_1/projects/) | ⬜ Not Started |
-| **Module 2** | Data Types, Variables & Operators | [📝](./ciso_netacad/PE2/module_2/notes/) | [🔨](./ciso_netacad/PE2/module_2/exercises/) | [🚀](./ciso_netacad/PE2/module_2/projects/) | ⬜ Not Started |
-| **Module 3** | Control Flow & Data Structures | [📝](./ciso_netacad/PE2/module_3/notes/) | [🔨](./ciso_netacad/PE2/module_3/exercises/) | [🚀](./ciso_netacad/PE2/module_3/projects/) | ⬜ Not Started |
-| **Module 4** | Functions & Advanced Topics | [📝](./ciso_netacad/PE2/module_4/notes/) | [🔨](./ciso_netacad/PE2/module_4/exercises/) | [🚀](./ciso_netacad/PE2/module_4/projects/) | ⬜ Not Started |
-| **PE2 Overall** | | | | | **░░░░░░░░░░ 0%** |
+| Module          | Topics                                        | Notes                                    | Exercises                                    | Projects                                    | Status            |
+| --------------- | --------------------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------- | ----------------- |
+| **Module 1**    | Introduction to Python & Computer Programming | [📝](./ciso_netacad/PE2/module_1/notes/) | [🔨](./ciso_netacad/PE2/module_1/exercises/) | [🚀](./ciso_netacad/PE2/module_1/projects/) | ⬜ Not Started    |
+| **Module 2**    | Data Types, Variables & Operators             | [📝](./ciso_netacad/PE2/module_2/notes/) | [🔨](./ciso_netacad/PE2/module_2/exercises/) | [🚀](./ciso_netacad/PE2/module_2/projects/) | ⬜ Not Started    |
+| **Module 3**    | Control Flow & Data Structures                | [📝](./ciso_netacad/PE2/module_3/notes/) | [🔨](./ciso_netacad/PE2/module_3/exercises/) | [🚀](./ciso_netacad/PE2/module_3/projects/) | ⬜ Not Started    |
+| **Module 4**    | Functions & Advanced Topics                   | [📝](./ciso_netacad/PE2/module_4/notes/) | [🔨](./ciso_netacad/PE2/module_4/exercises/) | [🚀](./ciso_netacad/PE2/module_4/projects/) | ⬜ Not Started    |
+| **PE2 Overall** |                                               |                                          |                                              |                                             | **░░░░░░░░░░ 0%** |
 
 ---
 
@@ -83,6 +83,7 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 4. **Status Updates**: Mark modules as complete once finished
 
 ### File Naming Conventions
+
 - Exercises: `exercise_1.py`, `exercise_2.py`
 - Projects: `project_1.py`, `project_capstone.py`
 - Notes: Create `.md` or `.txt` files for documentation
@@ -91,8 +92,8 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 
 ## 🎯 Learning Goals
 
-- [ ] Complete PE1 - Module 1
-- [ ] Complete PE1 - Module 2
+- ✅ Complete PE1 - Module 1
+- ✅ Complete PE1 - Module 2
 - [ ] Complete PE1 - Module 3
 - [ ] Complete PE1 - Module 4
 - [ ] Complete PE2 - Module 1
@@ -105,7 +106,6 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 ---
 
 ## 📖 Resources
-
 
 ---
 
