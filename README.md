@@ -61,11 +61,18 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 │   │   │   ├── notes/
 │   │   │   ├── exercises/
 │   │   │   └── projects/
-│   │   ├── ├── notes/
+│   │   ├── module_2/
+│   │   │   ├── notes/
 │   │   │   ├── exercises/
 │   │   │   └── projects/
 │   │   ├── module_3/
-│   │   └── module_4/
+│   │   │   ├── notes/
+│   │   │   ├── exercises/
+│   │   │   └── projects/
+│   │   ├── module_4/
+│   │   │   ├── notes/
+│   │   │   ├── exercises/
+│   │   │   └── projects/
 │   └── PE2/
 │       ├── module_1/
 │       ├── module_2/
