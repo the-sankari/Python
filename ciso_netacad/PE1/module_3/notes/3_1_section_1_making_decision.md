@@ -161,3 +161,76 @@ Conditional execution helps a program make decisions. The main tools are:
 - `elif`
 
 These statements let your program respond differently depending on the values of variables and expressions.
+
+## 12. 3.1.9 Pseudocode and introduction to loops
+
+Sometimes a problem is too big to solve with many repeated `if` statements. For example, finding the largest number among 200 or 1000 values would be very long and repetitive.
+
+In that case, we use an algorithm, which is a step-by-step solution to a problem. Before writing actual Python code, we can describe the solution in pseudocode.
+
+### What is pseudocode?
+
+Pseudocode is a simple, human-readable way to describe an algorithm. It is not real Python, so it cannot be executed directly.
+
+Example:
+
+```text
+largest_number = -999999999
+
+read a number
+
+if number == -1:
+    print largest_number
+    stop
+
+if number > largest_number:
+    largest_number = number
+
+repeat the process
+```
+
+### Why do we need loops?
+
+A loop allows us to repeat a block of code as many times as needed. This is useful when we want to process many values without writing the same code again and again.
+
+### Key idea
+
+The program keeps reading numbers until the user enters `-1`, which tells the program that there are no more values.
+
+### Example of the idea in Python
+
+```python
+largest_number = -999999999
+
+number = int(input("Enter a number (-1 to stop): "))
+
+while number != -1:
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Enter a number (-1 to stop): "))
+
+print("The largest number is:", largest_number)
+```
+
+### Important note
+
+This example introduces the idea of a loop using `while`. A loop repeats the code inside it until the condition becomes False.
+
+### Extra information
+
+Python also provides built-in functions such as `max()` and `min()` to find the largest and smallest values easily.
+
+```python
+number1 = int(input("Enter first number: "))
+number2 = int(input("Enter second number: "))
+number3 = int(input("Enter third number: "))
+
+largest_number = max(number1, number2, number3)
+print("The largest number is:", largest_number)
+```
+
+### Summary
+
+- Pseudocode helps us plan an algorithm before writing code.
+- Loops let us repeat code without rewriting it.
+- A loop is useful when processing many values or unknown amounts of input.
