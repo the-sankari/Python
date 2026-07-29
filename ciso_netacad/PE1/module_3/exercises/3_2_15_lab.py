@@ -13,3 +13,16 @@
 # Write a program which reads one natural number and executes the above steps as long as c0 remains different from 1. We also want you to count the steps needed to achieve the goal. Your code should output all the intermediate values of c0, too.
 
 # Hint: the most important part of the problem is how to transform Collatz's idea into a while loop – this is the key to success.
+
+number = int(input("Enter a natural number: "))
+steps = 0
+
+while number != 1:
+    if number % 2 == 0:
+        number = number // 2
+    else:
+        number = 3 * number + 1
+    steps += 1
+    print(number)
+
+print(f"Steps needed: {steps}")
