@@ -26,11 +26,35 @@
 
 ########################################
 # Question 4: Create a program with a for loop and a continue statement. The program should iterate over a string of digits, replace each 0 with x, and print the modified string to the screen.
-string_of_digits = input("Enter a string of digits: ")
+# string_of_digits = input("Enter a string of digits: ")
 
-for digit in string_of_digits:
-    if digit == '0':
-        print('x', end="")
+# for digit in string_of_digits:
+#     if digit == '0':
+#         print('x', end="")
+#         continue
+#     print(digit, end="") 
+# print()  # Move to the next line after printing the modified string
+
+#########################################
+# Question 5: Create a program with a while loop and a break statement. The program should ask the user to enter a number, and exit the loop when the user enters a negative number. The program should print the sum of all positive numbers entered.
+
+# total_sum = 0
+# while True:
+#     number = int(input("Enter a number (negative to exit): "))
+#     if number < 0:
+#         break
+#     total_sum += number
+# print("The sum of all positive numbers entered is:", total_sum)
+
+##########################################
+# Question 6: Create a program with a while loop and a continue statement. The program should ask the user to enter a number, and if the number is even, it should skip to the next iteration of the loop without adding it to the sum. The program should exit the loop when the user enters a negative number, and print the sum of all odd numbers entered.
+
+total_sum = 0
+while True:
+    number = int(input("Enter a number (negative to exit): "))
+    if number < 0:
+        break
+    if number % 2 == 0:
         continue
-    print(digit, end="") 
-print()  # Move to the next line after printing the modified string
+    total_sum += number
+print("The sum of all odd numbers entered is:", total_sum)
