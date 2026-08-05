@@ -103,7 +103,7 @@ The course is divided into **4 modules**, organized into 2 Practical Exams (PE):
 
 - ✅ Complete PE1 - Module 1
 - ✅ Complete PE1 - Module 2
-- [ ] Complete PE1 - Module 3
+- ✅ Complete PE1 - Module 3
 - [ ] Complete PE1 - Module 4
 - [ ] Complete PE2 - Module 1
 - [ ] Complete PE2 - Module 2
